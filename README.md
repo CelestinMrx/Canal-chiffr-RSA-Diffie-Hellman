@@ -20,7 +20,7 @@ Dernière étapes, Alice à la confirmation qu'elle parle avec Bob, elle peut en
 Pour la signature, on va dans un premier temps hacher le message puis ajouter un padding pour le chiffrer avec la clé privée.
 De cette façon le hash de la signature pourra être décodé par la clé public, il suffira ensuite de vérifier que les hash correspondent.
 
-### Defie-Hellman
+### Deffie-Hellman
 
 Alice et Bob vont pourvoir tous les deux s'envoyer `A = g^a mod p` (Alice) et `B = g^b mod p` (Bob).
 Ici a et b sont des nombres aléatoires entre 0 et p-1.  
